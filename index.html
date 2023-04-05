@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lu Agenda de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./main.css">       
+</head>
+<body>
+<div class="container">
+    <header>
+        <img class="imag" src="./images/logo.png" alt="logo de telefone azul">
+        <h1>Lu Agenda de Contatos</h1>
+    </header>
+    <form id="form-atividade">
+        <input type="text" id="nome-contato" required placeholder="Nome do contato">
+        <input type="text" id="telefone" required placeholder="Telefone"/>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <table id="contactTable">
+        <thead>
+            <tr>
+                <th>Nome do contato</th>
+                <th>Telefone do contato</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+<footer>
+    <div class="container">
+        <p>
+            &copy; Luan Agenda de contatos - Todos os direitos reservados - 2023
+        </p>
+    </div>
+</footer>
+<script src="./main.js"></script>
+</body>
+</html>
